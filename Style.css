@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+nav {
+    margin-bottom: 40px;
+}
+
+nav a,
+.dropbtn {
+    margin-right: 20px;
+    text-decoration: none;
+    color: black;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.dropdown {
+    display: inline-block;
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background: white;
+    min-width: 220px;
+    box-shadow: 0px 2px 8px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    display: block;
+    padding: 10px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.container {
+    margin-top: 40px;
+}
